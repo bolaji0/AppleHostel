@@ -91,6 +91,7 @@ a:hover {
 
 .section-title {
     margin-bottom: 60px;
+    overflow:hidden;
 }
 
 .section-title h2 {
