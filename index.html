@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Hostel</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <!-- <img src="/attached_assets/sterling logo.jpeg" alt="Sterling Logo" class="logo-img"> -->
+                <span class="brand-text">Apple Hostel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-carousel">
+            <!-- Hero Carousel with placeholders -->
+            <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide hero-placeholder">
+                            <img src="./attached_assets/daniel-barnes-RKdLlTyjm5g-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide hero-placeholder">
+                            <img src="./attached_assets/banner3.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide hero-placeholder">
+                            <img src="./attached_assets/banner2.jpg" alt="">
+                        </div>
+                    </div>
+                     <!-- Slide 4 -->
+                     <div class="swiper-slide">
+                        <div class="hero-slide hero-placeholder">
+                            <img src="./attached_assets/banner4.jpg" alt="">
+                        </div>
+                    </div>
+                     <!-- Slide 5 -->
+                     <div class="swiper-slide">
+                        <div class="hero-slide hero-placeholder">
+                            <img src="./attached_assets/banner5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-aos="fade-up" data-aos-delay="100">Stay. Study. Connect.</h1>
+                <p data-aos="fade-up" data-aos-delay="200">Discover the perfect hostel with Apple Hostel exclusive Rooms</p>
+                <a href="#services" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="300">View Services</a>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-img">
+                        <!-- Placeholder for professional realtor image -->
+                        <div class="placeholder-image rounded">
+                           <img src="./attached_assets/danist-soh-ZYrnNO1yvrU-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+                    <div class="about-content">
+                        <h3>Who We Are</h3>
+                        <p>Apple Hostel is a premier hostel dedicated to providing students with a comfortable, and affordable living environment. Our spaces are designed to balance study, rest, and social connection, offering a true home-away-from-home experience.</p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>Our mission is to make hostel living stress free and enjoyable by combining affordability with quality. We aim to suppport residents with the facilities and services they need to ficus on their studies, build friendships, and enjoy their time with peace of mind.</p>
+                        
+                        <h3>Why Choose Us</h3>
+                        <ul>
+                            <li>Fully Furnished rooms designed for comfort and productivity</li>
+                            <li>24/7 security, steady power, and reliable water supply</li>
+                            <li>Affordable pricing with services that add real value</li>
+                            <li>A supportive environment that feels like home</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section section-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Client Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="swiper-container" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Review 1 -->
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="review-content">
+                                <p></p>
+                            </div>
+                            <div class="client-info">
+                                <p>Ive been in this hostel for 2 years+ and i can confidently say this hostel is great a great choice for students. The facilities are modern the environment is quiet, and the 
+                                    services like electricity and water have been very consistent
+                                </p>
+                                <h4>Leila Yusuf</h4>
+                                <p>Software Engr - 400 lvl</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                             <div class="review-content">
+                                <p>The hostel feels very safe and organised. My room was comfortable and the steady light and water made things stress free. 
+                                    I also love the fast wifi, it made my online classes much easier.</p>
+                            </div>
+                            <div class="client-info">
+                                <h4>Chidinma Okeke </h4>
+                                <p>Business Administration - 200 lvl</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Review 3 -->
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                             <div class="review-content">
+                                <p>I really enjoy staying here. The environment is calm, and the staff are always ready to help.
+                                   The study rooms are a big plus because i can concentrate away from distractions. 
+                                </p>
+                            </div>
+                            <div class="client-info">
+                                <h4>Tunde Adebayo</h4>
+                                <p>Political Science - 400 lvl</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Review 4 -->
+                    <div class="swiper-slide">
+                        <div class="review-card">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="review-content">
+                               <p>Good Value for the price. The meals are decent, and the laundry service saves me a lot of time.
+                                The air-conditioned rooms make it comfortable even during hot afternoons
+                               </p>
+                            </div>
+                            <div class="client-info">
+                                <h4>Aisha Mohammad</h4>
+                                <p>Mechanical Engr - 200 lvl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3>Fully Furnished Rooms </h3>
+                        <p>Comfortable rooms equipped with a bed, study desk, and wardrobe for everyday living</p>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-fan"></i>
+                        </div>
+                        <h3>Air Condition</h3>
+                        <p>Stay cool and relaxed with our modern air condition in every rooms</p>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>24/7 Electricity</h3>
+                        <p>Reliable power supply with backup systems to keep you connected at all times</p>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3>Constant Water Supply</h3>
+                        <p>Steady flow of clean water for drinking, cooking and daily needs.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <h3>High Speed WiFi</h3>
+                        <p>Fast and stable internet access for study, work and entertainment.</p>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>24/7 Security with CCTV</h3>
+                        <p>Round the clock surveillance and security personnel for peace of mind</p>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>On site Hostel Supervisors</h3>
+                        <p>Friendly staff available to provide guidance and support when needed</p>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                        <h3>Laundry Service</h3>
+                        <p>Convenient laundry facilities to keep your clothes frsh and clean</p>
+                    </div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Meal Options/Catering</h3>
+                        <p>Nutritious meal plans with breakfast, dinner, and optional catering.</p>
+                    </div>
+                </div>
+
+                <!-- Service 10 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                        <h3>Common Rooms and Lounge</h3>
+                        <p>Comfortable Loundges where residents can relax and socialise</p>
+                    </div>
+                </div>
+
+                <!-- Service 11 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Game and Recreational Facilities</h3>
+                        <p>Fun Indoor and outdoor activities to unwind and connect</p>
+                    </div>
+                </div>
+
+                <!-- Service 12 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <h3>Shuttle / Transport Service</h3>
+                        <p>Safe and reliable transport for easy access to campus and the city</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="contact-form-container">
+                        <h3>Get in Touch</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div id="formMessage" class="mt-3"></div>
+                    </div>
+                </div>
+                
+                <!-- Contact Information & Map -->
+                <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>9 Apple Drive, Kings Court Estate, Phase 4, Jabi - Airport Bypass, Jabi, Abuja.
+                                    <i class="fas fa-wheelchair bounce-icon" onclick="showNote()"></i>
+                                    <span id="note" class="accessibility-note">Wheelchair Accessible</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <p>07062021467</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>info@applehostel.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <p>Monday-Saturday: 9am-5pm<br>Saturday: 10am-4pm<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container mt-4">
+                        <h3>Find Us</h3>
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126105.00761633636!2d7.3412704!3d8.9922441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75fb9f8ee491%3A0xe4a58cdf1a9610ac!2sKing&#39;s%20Court%20Estate%20Dakibiyu%20Jabi!5e0!3m2!1sen!2sng!4v1759109241084!5m2!1sen!2sng"  
+                            width="100%" 
+                            height="250" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-logo">
+                        <h3>Apple Hostel</h3>
+                        <p>Finding you the perfect place to call home</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Apple Hostel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+    <script>
+        function showNote() {
+          const note = document.getElementById('note');
+          note.style.opacity = 1;
+          setTimeout(() => {
+            note.style.opacity = 0;
+          }, 2000);
+        }
+      </script>
+</body>
+</html>
