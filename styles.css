@@ -87,6 +87,7 @@ a:hover {
 
 .section-light {
     background-color: var(--gray-color);
+    overflow:hidden;
 }
 
 .section-title {
