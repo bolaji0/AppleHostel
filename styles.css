@@ -83,16 +83,17 @@ a:hover {
 
 .section {
     padding: 100px 0;
+    overflow: hidden;
 }
 
 .section-light {
     background-color: var(--gray-color);
-    overflow:hidden;
+   
 }
 
 .section-title {
     margin-bottom: 60px;
-    overflow:hidden;
+    
 }
 
 .section-title h2 {
